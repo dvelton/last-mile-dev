@@ -6,7 +6,7 @@ When an AI tool writes code for you, you rarely ship it as-is. You rename a vari
 
 AI coding tools take instructions from static rule files. last-mile-dev generates those rules automatically by diffing AI-generated code against what you actually commit and extracting recurring patterns from the delta. One-time changes get filtered out. Preferences that recur across multiple commits get promoted into a portable code style profile you can feed back into any AI tool.
 
-Static rules can also drift from actual behavior. What you think you prefer and what you actually do can diverge. And static files don't update themselves when your preferences shift. last-mile-dev's confidence scoring handles this: patterns you haven't reinforced in 90 days decay and drop out of exports.
+Static rules you draft can also drift from actual behavior. What you think you prefer and what you actually do can diverge. And static files don't update themselves when your preferences shift. last-mile-dev's confidence scoring handles this: patterns you haven't reinforced in 90 days decay and drop out of exports.
 
 The overall concept comes from [last-mile](https://github.com/dvelton/last-mile), which does the same thing for prose.
 
