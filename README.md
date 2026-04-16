@@ -8,7 +8,7 @@ AI coding tools take instructions from static rule files. last-mile-dev generate
 
 Static rules you draft can also drift from actual behavior. What you think you prefer and what you actually do can diverge. And static files don't update themselves when your preferences shift. last-mile-dev's confidence scoring handles this: patterns you haven't reinforced in 90 days decay and drop out of exports.
 
-The overall concept comes from [last-mile](https://github.com/dvelton/last-mile), which does the same thing for prose.
+The overall concept comes from [last-mile](https://github.com/dvelton/last-mile), which does an analogous thing for prose.
 
 ## How it works
 
